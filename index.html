@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portofolio</title>
+  <link rel="stylesheet"  href="src/output.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+  <section id="navbar" class="fixed w-screen mx-auto px-4 bg-violet-950 z-50">
+    <nav class="flex flex-wrap p-2 justify-between items-center">
+  
+      <!-- Logo -->
+      <div class="flex flex-shrink-0 mx-8">
+        <a href="#">
+          <img src="img/akuungu.png" class="h-12 w-auto mb-2 pb-1" alt="">
+        </a>
+      </div>
+  
+      <!-- Hamburger Button -->
+      <div class="block lg:hidden">
+        <button id="menu-button"
+          class="flex items-center px-3 py-2 mt-3 rounded border border-violet-400 text-violet-500 hover:text-sky-500 hover:border-sky-500">
+          <svg class="block size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+  
+      <!-- Navigation Links -->
+      <div id="menu-items" class="hidden w-full lg:flex flex-col lg:flex-row lg:items-center lg:w-auto bg-violet-950 text-white text-center lg:mt-0">
+        <div class="text-sm lg:flex-grow text-center lg:text-left">
+          <a href="#about"
+            class="block mt-4 lg:inline-block lg:mt-0 text-violet-50 hover:underline decoration-sky-500 text-xl font-semibold mr-5">
+            About Me
+          </a>
+          <a href="#myproject"
+            class="block mt-4 lg:inline-block lg:mt-0 text-violet-50 hover:underline decoration-sky-500 text-xl font-semibold mr-5">
+            My Projects
+          </a>
+          <a href="#skill"
+            class="block mt-4 lg:inline-block lg:mt-0 text-violet-50 hover:underline decoration-sky-500 text-xl font-semibold mr-5">
+            My Skills
+          </a>
+          <a href="#sertif"
+            class="block mt-4 lg:inline-block lg:mt-0 text-violet-50 hover:underline decoration-sky-500 text-xl font-semibold mr-5">
+            Certificates
+          </a>
+        </div>
+  
+        <div class="w-full lg:w-auto text-center">
+          <a href="#contact"
+            class="inline-block text-sm px-4 py-2 rounded border border-violet-400 text-violet-50 text-xl font-semibold hover:border-sky-500 hover:text-sky-500 mt-4 lg:mt-0 mr-5">
+            Contact Me
+          </a>
+        </div>
+      </div>
+  
+    </nav>
+  </section>
+  
+
+  <section id="about" class="w-full min-h-screen w-screen mx-auto py-20 gradient px-0">
+    <div class="px-16 py-4 text-center text-white">
+      <h1 class="inline-block mx-auto px-20 rounded-full text-3xl font-bold underline decoration-sky-700 bg-violet-950 pt-4 pb-8 mb-4 w-full sm:w-3/4 md:w-2/3 lg:w-1/2">About Me</h1>
+      <h2 class="text-2xl font-bold mb-2">
+        Hello, my name is Gilang Abdian Anggara.
+      </h2>
+      <h3 class="text-lg mb-2">
+      I’m a university student who’s continuously learning and growing. Although the journey can be exhausting at times, I
+      keep moving forward and never stop trying. I aspire to become a civil servant (ASN) who can make a positive impact and
+      contribute meaningfully to society.
+      Thank you for stopping by — I hope what I share here offers a glimpse into my journey.
+      </h3>
+      <div class="w-full">
+        <div class="px-4 py-4">
+          <img src="img/erasebg-transformed (1).png" alt="foto"
+            class="shadow-lg rounded-full max-w-full mx-auto text-center w-52">
+        </div>
+      </div>
+    </div>
+    </section>
+  
+    <!-- Portofolio: DILUAR dari div px-16 -->
+  <section id="myproject" class="w-full min-h-screen w-screen mx-auto py-20 gradient px-0">
+    <div class="w-full max-w-7xl mx-auto px-4">
+      <div class="text-center text-white text-3xl font-bold underline decoration-sky-700 mb-8">
+        <h1 class="inline-block mx-auto w-full sm:w-3/4 md:w-2/3 lg:w-1/2 text-center underline decoration-sky-700 rounded-full pt-4 pb-8 bg-violet-950">My Projects</h1>
+      </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="w-full shadow-lg p-4 bg-violet-950 rounded-lg">
+        <a href="proyek1/index.html" target="_blank" class="group block">
+          <img src="img/proyek1.png"  alt="proyek1"
+            class="aspect-square w-full rounded-lg bg-gray-200 h-56 object-cover group-hover:opacity-75 md:aspect-[6/3]">
+          <p class="mt-3 text-4xl font-bold md:text-lg mb-4 text-violet-400 text-center">Creative Photo Studio</p>
+          <div class="w-full bg-violet-950 px-3 py-2 text-xs text-white">
+            <p class="text-lg text-justify">
+              Creative Photo Studio adalah website portofolio fotografi yang saya buat dengan desain modern dan responsif. Situs ini hanyalah gambaran halaman landing page website fotografi yang
+              berkualitas tinggi, berisikan informasi layanan, mengapa memilih kami hingga tombol hubungi kami, situs ini mencerminkan identitas studio yang
+              profesional dan kreatif. Semua foto didapat di unsplash.com
+            </p>
+          </div>
+        </a>
+        <div class="mt-6 text-center">
+          <a href="proyek1/index.html" target="_blank" role="button"
+            class="bg-violet-800 hover:bg-violet-900 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg">
+            View
+          </a>
+        </div>
+      </div>
+      <div class="w-full shadow-lg p-4 bg-violet-950 rounded-lg">
+        <a href="proyek2/index.html" target="_blank" class="group block">
+          <img src="img/proyek2.png" alt="proyek2"
+            class="aspect-square w-full rounded-lg bg-gray-200 h-56 object-cover group-hover:opacity-75 md:aspect-[6/3]">
+          <p class="mt-3 text-2xl font-bold md:text-lg mb-4 text-violet-400 text-center">Chelsea FC: Club Profile</p>
+          <div class="w-full bg-violet-950 px-3 py-2 text-xs text-white">
+            <p class="text-lg">
+              Proyek ini memberikan gambaran mendalam tentang Chelsea FC, mengupas sejarah klub, perjalanan mereka di berbagai
+              kompetisi, dan pencapaian-pencapaian besar yang membentuk identitas Chelsea. Kami juga menyoroti peran pemain-pemain
+              ikonik, strategi permainan yang digunakan oleh manajer, serta momen-momen penting yang menandai kesuksesan The Blues.
+            </p>
+          </div>
+        </a>
+        <div class="mt-6 text-center">
+          <a href="proyek2/index.html" target="_blank" role="button"
+            class="bg-violet-800 hover:bg-violet-900 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg">
+            View
+          </a>
+        </div>
+      </div>
+      <div class="w-full shadow-lg p-4 bg-violet-950 rounded-lg">
+        <a href="https://medium-kw.netlify.app/" target="_blank" class="group block">
+          <img src="img/proyek3.png" alt="proyek2"
+            class="aspect-square w-full rounded-lg bg-gray-200 h-56 object-cover group-hover:opacity-75 md:aspect-[6/3]">
+          <p class="mt-3 text-2xl font-bold md:text-lg mb-4 text-violet-400 text-center">Medium KW</p>
+          <div class="w-full bg-violet-950 px-3 py-2 text-xs text-white">
+            <p class="text-lg">
+              Small Medium – Simulasi Landing Page ala Medium
+              "Proyek ini adalah landing page yang saya buat dengan mengadaptasi konsep desain dari platform Medium. Fokus utama ada
+              pada tampilan yang bersih dan struktur layout yang rapi. Meskipun hanya sebuah landing page, proyek ini mencerminkan pendekatan desain dan perhatian terhadap detail
+              yang saya terapkan dalam pengembangan web."
+            </p>
+          </div>
+        </a>
+        <div class="mt-6 text-center">
+          <a href="https://medium-kw.netlify.app/" target="_blank" role="button"
+            class="bg-violet-800 hover:bg-violet-900 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg">
+            View
+          </a>
+        </div>
+      </div>
+<!-- 
+      <div class="w-full shadow-lg p-4 bg-violet-950 rounded-lg">
+        <a href="https://medium-kw.netlify.app/" target="_blank" class="group block">
+          <img src="img/proyek1.png" alt="proyek2"
+            class="aspect-square w-full rounded-lg bg-gray-200 h-56 object-cover group-hover:opacity-75 md:aspect-[6/3]">
+          <p class="mt-3 text-2xl font-bold md:text-lg mb-4 text-violet-400 text-center">Earthen Bottle</p>
+          <div class="w-full bg-violet-950 px-3 py-2 text-xs text-white">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit...
+            </p>
+          </div>
+        </a>
+        <div class="mt-6 text-center">
+          <a href="https://medium-kw.netlify.app/" target="_blank" role="button"
+            class="bg-violet-800 hover:bg-violet-900 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg">
+            View
+          </a>
+        </div>
+      </div>
+      <div class="w-full shadow-lg p-4 bg-violet-950 rounded-lg">
+        <a href="#" class="group block">
+          <img src="img/proyek1.png" alt="proyek2"
+            class="aspect-square w-full rounded-lg bg-gray-200 h-56 object-cover group-hover:opacity-75 md:aspect-[6/3]">
+          <p class="mt-3 text-2xl font-bold md:text-lg mb-4 text-violet-400 text-center">Earthen Bottle</p>
+          <div class="w-full bg-violet-950 px-3 py-2 text-xs text-white">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit...
+            </p>
+          </div>
+        </a>
+        <div class="mt-6 text-center">
+          <a href="#" role="button"
+            class="bg-violet-800 hover:bg-violet-900 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg">
+            View
+          </a>
+        </div>
+      </div>
+      <div class="w-full shadow-lg p-4 bg-violet-950 rounded-lg">
+        <a href="#" class="group block">
+          <img src="img/proyek1.png" alt="proyek2"
+            class="aspect-square w-full rounded-lg bg-gray-200 h-56 object-cover group-hover:opacity-75 md:aspect-[6/3]">
+          <p class="mt-3 text-2xl font-bold md:text-lg mb-4 text-violet-400 text-center">Earthen Bottle</p>
+          <div class="w-full bg-violet-950 px-3 py-2 text-xs text-white">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit...
+            </p>
+          </div>
+        </a>
+        <div class="mt-6 text-center">
+          <a href="#" role="button"
+            class="bg-violet-800 hover:bg-violet-900 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg">
+            View
+          </a>
+        </div>
+      </div> -->
+
+    </div>
+    </div>
+  </section>
+  <!-- <hr style="border: 2px solid ;"> -->
+
+
+  <section id="skill" class="w-screen mx-auto gradient px-8">
+    <div class="pb-8">
+    <div class="text-center text-white text-3xl font-bold underline decoration-sky-700">
+      <h1
+        class="inline-block mx-auto w-full sm:w-3/4 md:w-2/3 lg:w-1/2 text-center underline decoration-sky-700 rounded-full pt-4 pb-8 bg-violet-950 mt-20">
+        My Skills</h1>
+    </div>
+
+    <div id="skill1">
+    <div class="flex flex-col lg:flex-row flex-wrap">
+      <div class="w-full md:w-6/12 px-4 mt-20 order-2 lg:order-none mr-auto ml-auto">
+        <img src="img/programming.jpg" class="max-w-full mt-20 rounded-lg shadow-lg" alt="">
+      </div>
+
+      <div class="w-full md:w-6/12 mx-4 px-4 pb-8 pt-4  order-1 lg:order-none">
+        <div class="lg:w-6/12 px-0">
+          <h1 class="w-full my-2 text-3xl pt-4 font-bold text-center text-white">Programming Language</h1>
+          <div class="mb-4">
+            <div class="h-1 mx-auto bg-sky-700 w-1/2 opacity-75 mx-0 rounded"></div>
+          </div>
+          <p class="mt-4 text-lg text-white">
+          Saya menguasai bahasa pemrograman untuk pengembangan aplikasi dan web.
+          Berikut ini yang saya kuasai:</p>
+          <ul class="list-none mt-4">
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Java</p>
+              <div class="gradient-skill w-2/8"></div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">JavaScript</p>
+              <div class="gradient-skill w-2/8"></div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">HTML & CSS</p>
+              <div class="gradient-skill w-7/8"></div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">PHP</p>
+              <div class="gradient-skill w-4/8"></div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">SQL</p>
+              <div class="gradient-skill w-5/8"></div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">TypeScript</p>
+              <div class="belum w-8/8 text-white text-center">0%</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div id="skill2">
+    <div class="flex flex-col-reverse md:flex-row flex-wrap">
+      <div class="w-full md:w-6/12 mr-auto ml-auto px-4 pb-8 pt-4 order-1 lg:order-none">
+        <div class="lg:w-6/12 px-0">
+          <h1 class="w-full my-2 text-3xl pt-16 font-bold text-center text-white">Web Development</h1>
+          <div class="mb-4">
+            <div class="h-1 mx-auto bg-sky-700 w-1/2 opacity-75 mx-0 rounded"></div>
+          </div>
+          <p class="mt-4 text-lg text-white">
+          Saya belum mampu membangun website yang responsif dan dinamis.
+          Berikut ini yang belum saya pelajari:</p>
+          <ul class="list-none mt-4">
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">React</p>
+              <div class="border belum w-8/8 text-center text-white"> 0%</div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Node.js</p>
+              <div class="border belum w-8/8 text-center text-white">0%</div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Vue.js</p>
+              <div class="border belum w-8/8 text-center text-white">0%</div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Next.js</p>
+              <div class="border belum w-8/8 text-center text-white">0%</div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Express.js</p>
+              <div class="border belum w-8/8 text-center text-white">0%</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="w-full md:w-6/12 px-4 mt-20 order-2 lg:order-none mr-auto ml-auto">
+        <img src="img/webb.jpg" class="max-w-full mt-20 rounded-lg shadow-lg" alt="">
+      </div>
+    </div>
+    </div>
+
+    <div id="skill3">
+    <div class="flex flex-col lg:flex-row flex-wrap">
+      <div class="w-full md:w-6/12 px-4 mt-20 order-2 lg:order-none mr-auto ml-auto">
+        <img src="img/frameworkk.jpg" class="max-w-full mt-20 rounded-lg shadow-lg" alt="">
+      </div>
+      
+      <div class="w-full md:w-6/12 mr-auto ml-auto px-4 pb-8 pt-4  order-1 lg:order-none">
+        <div class="lg:w-6/12 px-0">
+          <h1 class="w-full my-2 text-3xl pt-16 font-bold text-center text-white">Frameworks & Libraries</h1>
+          <div class="mb-4">
+            <div class="h-1 mx-auto bg-sky-700 w-1/2 opacity-75 mx-0 rounded"></div>
+          </div>
+          <p class="mt-4 text-lg text-white">
+          Saya menggunakan framework untuk mempercepat proses coding.
+          Berikut ini yang saya kuasai:</p>
+          <ul class="list-none mt-4">
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Tailwind CSS</p>
+              <div class="gradient-skill w-3/8"></div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Bootsrap</p>
+              <div class="gradient-skill w-5/8"></div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">jQuery</p>
+              <div class="gradient-skill w-3/8"></div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Spring Boot</p>
+              <div class="belum w-8/8 text-center text-white">0%</div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Axios</p>
+              <div class=" belum w-8/8 text-center text-white">0%</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+    </div>
+
+
+    <div id="skill4">
+    <div class="flex flex-col lg:flex-row flex-wrap">
+
+      <div class="w-full md:w-6/12 mr-auto ml-auto px-4 pb-8 pt-4  order-1 lg:order-none">
+        <div class="lg:w-6/12 px-0">
+          <h1 class="w-full my-2 text-3xl pt-4 font-bold text-center text-white pt-16">Software Development Tools</h1>
+          <div class="mb-4">
+            <div class="h-1 mx-auto bg-sky-700 w-1/2 opacity-75 mx-0 rounded"></div>
+          </div>
+          <p class="mt-4 text-lg text-white">
+        Saya terbiasa memakai tools untuk efisiensi pengembangan.
+        Berikut ini yang saya kuasai:</p>
+          <ul class="list-none mt-4">
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Visual Studio Code</p>
+              <div class="gradient-skill w-8/8 text-center text-white"> </div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Git & GitHub</p>
+              <div class="gradient-skill w-4/8 text-center text-white"></div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Docker</p>
+              <div class="border belum w-8/8 text-center text-white">0%</div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Postman</p>
+              <div class="border belum w-8/8 text-center text-white">0%</div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Figma</p>
+              <div class="gradient-skill w-1/8"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="w-full md:w-6/12 px-4 mt-20 order-2 lg:order-none mr-auto ml-auto">
+        <img src="img/sftware.jpg" class="max-w-full mt-20 rounded-lg shadow-lg" alt="">
+      </div>
+    </div>
+    </div>
+
+    <div id="skill5">
+    <div class="flex flex-col lg:flex-row flex-wrap">
+      <div class="w-full md:w-6/12 px-4 mt-20 order-2 lg:order-none mr-auto ml-auto">
+        <img src="img/dtbse.jpg" class="max-w-full mt-16 rounded-lg shadow-lg" alt="">
+      </div>
+
+      <div class="w-full md:w-6/12 mr-auto ml-auto px-4 pb-8 pt-4  order-1 lg:order-none">
+        <div class="lg:w-6/12 px-0">
+          <h1 class="w-full my-2 text-3xl pt-16 font-bold text-center text-white">Database Management</h1>
+          <div class="mb-4">
+            <div class="h-1 mx-auto bg-sky-700 w-1/2 opacity-75 mx-0 rounded"></div>
+          </div>
+          <p class="mt-4 text-lg text-white">
+        Saya memahami cara mengelola dan mengolah data aplikasi.
+        Berikut ini yang saya kuasai:</p>
+          <ul class="list-none mt-4">
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">MySQL</p>
+              <div class="gradient-skill w-6/8"> </div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">PostgreSQLb</p>
+              <div class="belum w-8/8 text-center text-white">0%</div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">MongoDB</p>
+              <div class="belum w-8/8 text-center text-white">0%</div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Firebase</p>
+              <div class="belum w-8/8 text-center text-white">0%</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+    </div>
+
+    <div id="skill6">
+    <div class="flex flex-col lg:flex-row flex-wrap">
+
+      <div class="w-full md:w-6/12 mr-auto ml-auto px-4 mt-12 pt-8 order-1 lg:order-none">
+        <div class="lg:w-6/12 px-0">
+          <h1 class="w-full my-2 text-3xl font-bold text-center text-white">Design & UI/UX</h1>
+          <div class="mb-4">
+            <div class="h-1 mx-auto bg-sky-700 w-1/2 opacity-75 mx-0 rounded"></div>
+          </div>
+          <p class="mt-4 text-lg text-white">
+        Saya tertarik pada desain antarmuka yang fungsional.
+        Berikut ini yang saya kuasai:</p>
+          <ul class="list-none mt-4">
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Figma</p>
+              <div class="gradient-skill w-3/8"> </div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Adobe XD</p>
+              <div class="belum w-8/8 text-center text-white">0%</div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Canva</p>
+              <div class="gradient-skill w-7/8"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="w-full md:w-6/12 px-4 mt-20 order-2 lg:order-none mr-auto ml-auto">
+        <img src="img/uiux.jpg" class="max-w-full rounded-lg shadow-lg" alt="">
+      </div>
+    </div>
+    </div>
+
+    <div id="skill7">
+    <div class="flex flex-col lg:flex-row flex-wrap">
+      <div class="w-full md:w-6/12 px-4 mt-20 order-2 lg:order-none mr-auto ml-auto">
+        <img src="img/softskill.jpg" class="max-w-full mt-16 rounded-lg shadow-lg" alt="">
+      </div>
+
+      <div class="w-full md:w-6/12 mr-auto ml-auto px-4 pb-8 pt-4  order-1 lg:order-none">
+        <div class="lg:w-6/12 px-0">
+          <h1 class="w-full my-2 text-3xl pt-4 pb-4 font-bold text-center text-white">Soft Skills</h1>
+          <div class="mb-4">
+            <div class="h-1 mx-auto bg-sky-700 w-1/2 opacity-75 mx-0 rounded"></div>
+          </div>
+          <p class="mt-4 text-lg text-white">
+        Saya memiliki keterampilan dasar yang mendukung kerja tim dan penyelesaian tugas.
+        Berikut ini yang saya kuasai:</p>
+          <ul class="list-none mt-4">
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Teamwork</p>
+              <div class="gradient-skill w-4/8"> </div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Problem Solving</p>
+              <div class="gradient-skill w-4/8"></div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Communication Skills</p>
+              <div class="gradient-skill w-2/8"></div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Adaptability</p>
+              <div class="gradient-skill w-4/8"></div>
+            </li>
+            <li class="grid grid-cols-2 py-2">
+              <p class="text-lg text-white">Time Management</p>
+              <div class="gradient-skill w-6/8"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+    </div>
+    </div>
+
+  </section>
+
+
+<section id="sertif">
+<div class="main gradient">
+  <div class="text-center text-white text-3xl font-bold underline decoration-sky-700">
+    <h1
+      class="inline-block mx-auto w-full sm:w-3/4 md:w-2/3 lg:w-1/2 text-center underline decoration-sky-700 rounded-full pt-4 pb-8 bg-violet-950 mt-20">
+      My Certificates</h1>
+  </div>
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="img/sertif1.png"></div>
+        <div class="card_content">
+          <h2 class="card_title">
+          Dasar-Dasar Pengembangan Web – Dicoding Indonesia
+          </h2>
+          <p class="card_text">
+            membahas tuntas dasar HTML dan CSS sebagai tiga fondasi pembuatan website. Fokus pada struktur halaman, styling,
+            responsive design, serta prinsip aksesibilitas.
+          </p>
+          <a href="https://www.dicoding.com/certificates/4EXGVE27EXRL" target="_blank"><button class="btn card_btn">View</button></a>
+        </div>
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="img/sertif2.png" height="100px"></div>
+        <div class="card_content">
+          <h2 class="card_title">
+            Pengenalan ke Logika Pemrograman – Dicoding Indonesia
+          </h2>
+          <p class="card_text">
+          memahami logika pemrograman dasar dan menerapkannya dalam pemecahan masalah yang ada di bidang pekerjaan Software
+          Developer.
+          </p>
+          <a href="https://www.dicoding.com/certificates/L4PQE659OPO1" target="_blank"><button class="btn card_btn">View</button></a>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+</section>
+
+
+  <section id="contact" class="contact w-screen mx-auto pt-4">
+    <div class="container-contact">
+      <div class="text inline-block mx-auto w-full sm:w-3/4 md:w-2/3 lg:w-1/2 text-center underline decoration-sky-700 rounded-full pt-4 bg-violet-950">
+        Contact Me Form
+      </div>
+      <form action="">
+        <div class="form-row flex flex-col md:flex-row gap-4 w-full">
+          <div class="input-data w-full md:w-1/2">
+            <input type="text">
+            <div class="underline"></div>
+            <label for="">First Name</label>
+          </div>
+          <div class="input-data w-full md:w-1/2">
+            <input type="text">
+            <div class="underline"></div>
+            <label for="">Last Name</label>
+          </div>
+        </div>
+        <div class="form-row w-full md:w-1/2">
+          <div class="input-data">
+            <input type="text">
+            <div class="underline"></div>
+            <label for="">Email Address</label>
+          </div>
+          <div class="input-data w-full md:w-1/2">
+            <input type="text">
+            <div class="underline"></div>
+            <label for="">Subject</label>
+          </div>
+        </div>
+        <div class="form-row w-full md:w-1/2">
+          <div class="input-data textarea">
+            <textarea rows="8" cols="80"></textarea>
+            <br />
+            <div class="underline"></div>
+            <label for="">Write your message</label>
+            <br />
+          </div>
+          </div>
+                 
+        </form>
+        <div class="w-full flex justify-center">
+          
+          <button class="send-button" type="submit">
+            <a href="https://wa.me/+6285798124873?text=Gilang%20Abdian%20Anggara%20Ganteng%20Banget">
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i>
+              <span class="send-text">SEND</span>
+            </div>
+            </a>
+            </button>
+        </div>
+      </section>
+
+  <section id="footer" class="w-screen mx-auto pt-8 mb-4">
+    <div class="ikon">
+      <div class="social-icons">
+        <a class="social-icon social-icon--twitter" href="https://pin.it/1D6x6L09O" target="_blank">
+          <i class="fa fa-pinterest"></i>
+          <div class="tooltip">Pinterest</div>
+        </a>
+        <a class="social-icon social-icon--whatsapp" href="https://www.tiktok.com/@abdianjahat?is_from_webapp=1&sender_device=pc" target="_blank">
+          <i class="fa fa-tiktok"></i>
+          <div class="tooltip">Tiktok</div>
+        </a>
+      </div>
+    </div>
+    <!-- <div class="text-center">
+      <a href="" class="p-2">
+        <i class="fa-brands fa-tiktok fa-2xl ikon"></i>
+      </a>
+      <a href="" class="p-2">
+        <i class="fa-brands fa-twitter fa-2xl ikon"></i>
+      </a>
+      <a href="" class="p-2">
+        <i class="fa-brands fa-youtube fa-2xl ikon"></i>
+      </a>
+    </div> -->
+    <div class="text-center mt-4" style="color: bisque;"> &copy; 2025. Made by Gilang Abdian </div>
+    
+    
+
+
+
+  </section>
+  
+  <script>
+    const button = document.getElementById('menu-button');
+      const menu = document.getElementById('menu-items');
+
+      button.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+* {
+box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Quicksand', Helvetica;
+    background-color:#E1FFBB;
+    margin:0;
+    padding:0;
+}
+
+h2, h3 {
+    color:#009990;
+}
+
+#content p {
+    text-align:justify;
+}
+footer {
+    padding:20px;
+    color:#e1FFbb;
+    background-color:#001A6E;
+    text-align:center;
+    font-weight:bold;
+}
+
+nav a {
+    font-size:18px;
+    font-weight:400;
+    text-decoration:none;
+    color: white;
+}
+
+
+nav a:hover {
+    font-weight:bold;
+    transition: background-color 0.3s ease
+}
+
+.profile header {
+    text-align:center;
+}
+
+.featured-image {
+    width:100%;
+    max-height:600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img {
+    width:200px;
+}
+
+.card {
+    box-shadow:0px 4px 8px 0px rgba(24,8,255,1);
+    border-radius: 5px;
+    background-color: white;
+    padding:20px;
+    
+}
+
+.jumbotron {
+    font-size:20px;
+    background-color:#001A6E;
+    text-align:center;
+    padding:60px;
+    color:#E1FFBB;
+}
+
+nav ul {
+    padding-inline:4rem;
+    display:flex;
+
+    gap:2rem;
+}
+
+nav li {
+    list-style-type:none;
+}
+
+nav {
+    background-color:#074799;
+    padding:5px;
+
+    position:sticky;
+    top:0;
+}
+
+main {
+    padding:20px;
+    display:flex;
+    gap:1.5rem;
+}
+
+#content {
+   flex:5;
+   display:flex;
+   flex-flow:column nowrap;
+   gap:1rem 2rem;
+}
+
+aside {
+    flex:1;
+}
+
+header {
+    display:inline;
+}
+ 
+/*perangkat dengan lebar layar 1200px dan dibhwnya */
+@media screen and (max-width: 1200px) {
+ main {
+    flex-flow:column nowrap;
+ }
+
+ main aside {
+    align-self:center;
+ }
+}
+
+/*perangkat dengan lebar layar 768px dan dibwhnya*/
+@media screen and (max-width:768px) {
+    nav ul {
+        justify-content:center;
+    }
+
+    main aside {
+        align-self:stretch;
+    }
+}
+
+
+
+footer a:hover{
+color: #e1FFbb;
+font-size: 1.1em;
+transition: background-color 0.3s ease
+}
