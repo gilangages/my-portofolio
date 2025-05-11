@@ -6,18 +6,13 @@
 }
 
 
-/* #navbar{
-  background-color: #574d45;
-  height: 12%;
-} */
-
 #services{
   background-color: #ebe6e3;
 }
 
-.h1{
+/* .h1{
   font-size: 5em;
-}
+} */
 
 .background-header {
   background-image: url('../images/banner4.jpg');
@@ -48,21 +43,26 @@ a.navbar-brand{
   margin-top: -0.2em;;
 }
 
-@media (min-width:480px){
-  h1.h1{
-    font-size:2.4em;
-    padding-top: 0.6em;
+
+/* mobile */
+@media (min-width:300px) and (max-width:767px){
+  .h1{
+    font-size:5em;
+    margin-top: -2.5em;
   }
 
+
   #navbar{
-    height: 6%;
+    height: 1% !important;
     background-color: #574d45;
   }
 
   .background-header{
-    height: 45vh;
-    padding-top: 10em;
+    height: 60vh !important;
+    font-size: 0.6em;
+    padding: 25em 0em;
   }
+
 
   .tambahan{
     font-size: 1em;
@@ -89,14 +89,13 @@ a.navbar-brand{
     white-space: nowrap;
   }
   
-  
   h2:before,
   h2:after{
   background-color: #574d45;
   content: "";
   display: inline-block;
-  height: 2px;
-  width: 10% ; /* atau coba 40%, bukan 50% */
+  height: 1px;
+  width: 1% ; /* atau coba 40%, bukan 50% */
   vertical-align: middle;
   position: relative;
   }
@@ -141,120 +140,40 @@ a.navbar-brand{
     font-size: 1px;
     font-size: 1.2em !important;
     padding: 5px 9px  !important;
-    /* margin-left:  4px  !important;
-    margin-right: 1px  !important; */
-    white-space: nowrap;
-  }
-}
-
-@media (max-width:768px){
-  .h1{
-    font-size:4.2em !important;
-    padding-top: 0.5em;
-  }
-
-
-  h2:before,
-  h2:after{
-  background-color: #574d45;
-  content: "";
-  display: inline-block;
-  height: 1px;
-  width: 3% !important; /* atau coba 40%, bukan 50% */
-  vertical-align: middle;
-  position: relative;
-  }
-
-  h2::before{
-    margin-right: 0.1em;
-  }
-
-  h2::after{
-    margin-left: 0.1em;
-  }
-
-
-  .buttonwht.satu, 
-  .buttonwht.dua{
-    font-size: 1.1em !important;
-    padding: 10px 3px  !important;
-    margin-left:  4px  !important;
-    margin-right: 1px  !important;
     white-space: nowrap;
   }
 
-  .p-konten-2 p{
-    padding-left: 1em !important; 
-    text-align: justify;
-  }
-
-  .p-konten-3 p{
-    padding-left: 0.5em !important; 
-    text-align: justify;
-  }
-
-  .p-konten-4 p{
-    padding-left: 0.5em !important; 
-    text-align: justify;
-  }
-
-  .background-header{
-    padding-top: 15em !important;
-    font-size: 0.6em !important;
-    height: 100vh !important;
-  }
-
-  #navbar{
-    height: 7%;
-    background-color: #574d45;
-  }
-
-  .buttontambahan{
-    margin-top: -2em;
-  }
-
-   .about1 img{
-    margin-top: 1em;
-    margin-bottom: 1em;
-    width: 95%;
-    height: auto;
-  }
-
-   .about2 img{
-    margin-top: 1em;
-    height: auto;
-    width: 95%;
-
-    .waves {
-      margin-bottom: -230px;
-      height:15vh;
-      min-height:20px;
-    }
   
-    .content {
-      /* margin-bottom: -2em; */
-      height:40vh;
-    }
+  .waves {
+    margin-bottom: -20em !important;
+    height:12vh !important;
+    min-height:10px;
+  }
 
+  .content {
+    /* margin-bottom: -2em; */
+    height:30vh !important;
+    margin-top: 6em;
   }
 }
 
-@media (min-width:1024px) {
+/* tablet dan desktop */
+@media (min-width:768px) and (max-width:1023px) {
   .h1{
-    font-size:4.2em !important;
-    padding-top: 0.5em;
+    font-size:4em !important;
+    margin-top: -3em;
   }
 
   #navbar{
-    height: 9% !important;
+    height: 2% !important;
     background-color: #574d45;
   }
   
   .background-header{
-    padding-top: 11em;
-    font-size: 1em;
-    height:100vh !important ;
+    height:100vh;
+    padding: 20em 0em;
   }
+  
 
   .navbar {
     padding-top: 0.3rem;
@@ -297,7 +216,37 @@ a.navbar-brand{
     height: auto;
     width: 90% !important;
   }
+  
+  .waves {
+    margin-bottom: -26em !important;
+    height:12vh !important;
+    min-height:10px;
+  }
 
+  .content {
+    /* margin-bottom: -2em; */
+    height:30vh !important;
+    margin-top: 9em;
+  }
+  
+}
+
+@media (min-width:1024px){
+  .h1{
+    font-size:5em !important;
+    margin-top: -2.3em;
+  }
+
+  #navbar{
+    height: 2% !important;
+    background-color: #574d45;
+    margin-top: 19px;
+  }
+  
+  .background-header{
+    height:100vh;
+    padding: 18em 0em;
+  }
 }
 
 .navbar-nav .nav-link{
@@ -369,26 +318,6 @@ p.lead{
   border: 2px solid #574d45;
   transition: background-color 0.5s ease;
 }
-/* 
-
-  h2:before,
-  h2:after{
-  background-color: #574d45;
-  content: "";
-  display: inline-block;
-  height: 1px;
-  width: 3% !important; 
-  vertical-align: middle;
-  position: relative;
-  }
-
-  h2::before{
-    margin-right: 0.1em;
-  }
-
-  h2::after{
-    margin-left: 0.1em;
-  } */
 
   .button-sekunder{
     text-decoration: none;
