@@ -201,7 +201,7 @@ a.navbar-brand{
   .background-header{
     padding-top: 15em !important;
     font-size: 0.6em !important;
-    height: 55vh !important;
+    height: 100vh !important;
   }
 
   #navbar{
@@ -224,6 +224,17 @@ a.navbar-brand{
     margin-top: 1em;
     height: auto;
     width: 95%;
+
+    .waves {
+      margin-bottom: -230px;
+      height:15vh;
+      min-height:20px;
+    }
+  
+    .content {
+      /* margin-bottom: -2em; */
+      height:40vh;
+    }
 
   }
 }
@@ -645,18 +656,3 @@ svg{
   }
 }
 /*Shrinking for mobile*/
-@media (max-width: 768px) {
-  .waves {
-    margin-bottom: -230px;
-    height:15vh;
-    min-height:20px;
-  }
-
-  .content {
-    /* margin-bottom: -2em; */
-    height:40vh;
-  }
-  h1 {
-    font-size:24px;
-  }
-}
