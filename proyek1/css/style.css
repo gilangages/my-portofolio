@@ -145,7 +145,7 @@ a.navbar-brand{
 
   
   .waves {
-    margin-bottom: -20em !important;
+    margin-bottom: -25em !important;
     height:12vh !important;
     min-height:10px;
   }
@@ -244,7 +244,7 @@ a.navbar-brand{
   }
   
   .background-header{
-    height:40vh;
+    height:80vh !important;
     padding: 18em 0em;
   }
 }
