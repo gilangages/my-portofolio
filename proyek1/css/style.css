@@ -9,10 +9,10 @@ body{
   background-color: #F2EFE7;
 }
 
-#navbar{
+/* #navbar{
   background-color: #574d45;
   height: 12%;
-}
+} */
 
 #services{
   background-color: #ebe6e3;
@@ -51,10 +51,20 @@ a.navbar-brand{
   margin-top: -0.2em;;
 }
 
-@media (max-width:768px){
+@media (min-width:480px){
   h1.h1{
     font-size:2.4em;
     padding-top: 0.6em;
+  }
+
+  #navbar{
+    height: 6%;
+    background-color: #574d45;
+  }
+
+  .background-header{
+    height: 45vh;
+    padding-top: 10em;
   }
 
   .tambahan{
@@ -82,10 +92,26 @@ a.navbar-brand{
     white-space: nowrap;
   }
   
-  div h2::before,
-  div h2::after{
-  display: none;
+  
+  h2:before,
+  h2:after{
+  background-color: #574d45;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 10% ; /* atau coba 40%, bukan 50% */
+  vertical-align: middle;
+  position: relative;
   }
+
+  h2::before{
+    margin-right: 0.1em;
+  }
+
+  h2::after{
+    margin-left: 0.1em;
+  }
+
 
   span.label{
     font-weight: 800;
@@ -124,10 +150,32 @@ a.navbar-brand{
   }
 }
 
-@media (max-width:555px){
+@media (max-width:768px){
   .h1{
-    font-size:1px  !important;
+    font-size:4.2em !important;
+    padding-top: 0.5em;
   }
+
+
+  h2:before,
+  h2:after{
+  background-color: #574d45;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 3% !important; /* atau coba 40%, bukan 50% */
+  vertical-align: middle;
+  position: relative;
+  }
+
+  h2::before{
+    margin-right: 0.1em;
+  }
+
+  h2::after{
+    margin-left: 0.1em;
+  }
+
 
   .buttonwht.satu, 
   .buttonwht.dua{
@@ -153,10 +201,15 @@ a.navbar-brand{
     text-align: justify;
   }
 
-
   .background-header{
-    padding-top: 14em !important;
+    padding-top: 15em !important;
     font-size: 0.6em !important;
+    height: 55vh !important;
+  }
+
+  #navbar{
+    height: 7%;
+    background-color: #574d45;
   }
 
   .buttontambahan{
@@ -178,16 +231,23 @@ a.navbar-brand{
   }
 }
 
-@media (max-width:1200px) {
+@media (min-width:1024px) {
   .h1{
     font-size:4.2em !important;
     padding-top: 0.5em;
   }
 
-  .background-header{
-    padding-top: 4em;
-    font-size: 1em;
+  #navbar{
+    height: 9% !important;
+    background-color: #574d45;
   }
+  
+  .background-header{
+    padding-top: 9em;
+    font-size: 1em;
+    height:90vh !important ;
+  }
+
   .navbar {
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
@@ -301,7 +361,7 @@ p.lead{
   border: 2px solid #574d45;
   transition: background-color 0.5s ease;
 }
-
+/* 
 
   h2:before,
   h2:after{
@@ -309,18 +369,18 @@ p.lead{
   content: "";
   display: inline-block;
   height: 1px;
-  width: 20%; /* atau coba 40%, bukan 50% */
+  width: 3% !important; 
   vertical-align: middle;
   position: relative;
   }
 
   h2::before{
-    margin-right: 0.5em;
+    margin-right: 0.1em;
   }
 
   h2::after{
-    margin-left: 0.5em;
-  }
+    margin-left: 0.1em;
+  } */
 
   .button-sekunder{
     text-decoration: none;
