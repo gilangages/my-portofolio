@@ -220,13 +220,13 @@ form .form-row .textarea{
   position: absolute;
   bottom: 0;
   height: 2px;
-  width: 100%;
+  width: 98%;
 }
 .input-data .underline:before{
   position: absolute;
   content: "";
   height: 2px;
-  width: 100%;
+  width: 98%;
   background: #3498db;
   transform: scaleX(0);
   transform-origin: center;
@@ -446,14 +446,14 @@ form .form-row .textarea{
 }
 
 
-.contact-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.container-contact {
+  /* display: flex;
+  flex-direction: row; */
+  /* justify-content: space-between; */
   margin: 0 auto;
   padding: 20px;
   position: relative;
-  max-width: 840px;
+  max-width: 1110px;
 }
 
 
