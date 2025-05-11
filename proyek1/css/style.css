@@ -233,8 +233,8 @@ a.navbar-brand{
 
 @media (min-width:1024px){
   .h1{
-    font-size:5em !important;
-    margin-top: -2.3em;
+    font-size:6em !important;
+    margin-top: -1.5em;
   }
 
   #navbar{
