@@ -19,7 +19,7 @@ h2, h3 {
 }
 footer {
     padding:20px;
-    color:#e1FFbb;
+    color:#276fce;
     background-color:#001A6E;
     text-align:center;
     font-weight:bold;
@@ -132,9 +132,22 @@ header {
 }
 
 
+footer{
+  padding-top: 2em;
+}
+
+footer p {
+  margin-top: 1em;
+}
+
+footer a{
+  padding: 0.6em;
+  margin-top: 2em;
+  color: #276fce;
+}
 
 footer a:hover{
 color: #e1FFbb;
 font-size: 1.1em;
-transition: background-color 0.3s ease
+transition: background-color 0.3s ease;
 }
