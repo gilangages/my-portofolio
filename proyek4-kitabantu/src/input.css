@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer components {
+  nav{
+    @apply bg-[#bd8dec] w-full py-2 top-0 sticky;
+  }
+
+  .card-category{
+    @apply bg-[#F7F7F8] p-7 text-gray-600 font-semibold text-lg gap-3 rounded-2xl h-40;
+  }
+}
