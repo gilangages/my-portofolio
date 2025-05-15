@@ -83,6 +83,16 @@
     }
 
 
+    @media screen and (max-width: 768px){
+      .carousel-control-prev{
+        display: none;
+      }
+      .carousel-control-next{
+        display: none;
+      }
+    }
+
+
     /* layout mobile */
     @media screen and (max-width: 1024px) {
       #carousel-right {
@@ -107,8 +117,6 @@
       #wave {
         margin-bottom: -1px;
       }
-
-
     }
 
     /* layout website */
@@ -122,13 +130,25 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        /* padding-right: 3em; */
       }
-      
+
+      .carousel-control-next{
+        display: flex;
+        justify-content: end;
+        padding-right: 4em;
+      }
+
+      .carousel-control-prev{
+        display: flex;
+        justify-content: start;
+        padding-left: 4em;
+      }
 
       #carousel {
-        /* margin: 2em 0em; */
-        padding-top: 4em;
+        padding: 2em 0em;
       }
+
 
       #wave {
         margin-top: -295px;
@@ -173,7 +193,7 @@
         </ul>
       </div>
     </nav>
-    <hr style="margin: 0px 0px; border: 3px solid; opacity: .5;" />
+    <hr class="hr-afternav" style="margin: 0px 0px; border: 3px solid; opacity: .5;" />
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
