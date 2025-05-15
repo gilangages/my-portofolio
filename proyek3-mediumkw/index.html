@@ -84,10 +84,13 @@
 
 
     /* layout mobile */
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1024px) {
       #carousel-right {
-        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
+      
 
       #carousel {
         padding: 2em 1em;
@@ -115,12 +118,20 @@
         width: 20%;
       }
 
+      #carousel-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+
       #carousel {
-        margin: 2em 0;
+        /* margin: 2em 0em; */
+        padding-top: 4em;
       }
 
       #wave {
-        margin-top: -310px;
+        margin-top: -295px;
       }
 
       #contents-1 {
@@ -132,7 +143,7 @@
 
 <body>
   <section id="navbar" style="background-color: #777ff1;">
-    <nav class="navbar navbar-expand-lg" style="background-color: #777ff1;" >
+    <nav class="navbar navbar-expand-lg" style="background-color: #777ff1; " >
       <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
           aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -168,7 +179,7 @@
         <div class="carousel-item active">
           <div class="container">
             <div id="carousel" class="row">
-              <div id="carousel-left" class="col">
+              <div id="carousel-left" class="col-12 col-md-6">
                 <div class="row">
                   <div class="col">
                     <h1 class="display-3">
@@ -185,7 +196,7 @@
                   <button class="btn btn-light">Get Started</button>
                 </div>
               </div>
-              <div id="carousel-right" class="col">
+              <div id="carousel-right" class="col-12 col-md-6">
                 <img src="assets/images/city1.jpg" alt="" class="img-fluid">
               </div>
             </div>
@@ -211,7 +222,7 @@
                   <button class="btn btn-warning">Get Started</button>
                 </div>
               </div>
-              <div id="carousel-right" class="col">
+              <div id="carousel-right" class="col-12 col-md-6">
                 <img src="assets/images/city2.jpg" alt="" class="img-fluid">
               </div>
             </div>
@@ -237,7 +248,7 @@
                   <button class="btn btn-warning">Get Started</button>
                 </div>
               </div>
-              <div id="carousel-right" class="col">
+              <div id="carousel-right" class="col-12 col-md-6">
                 <img src="assets/images/city3.jpg" alt="" class="img-fluid">
               </div>
             </div>
