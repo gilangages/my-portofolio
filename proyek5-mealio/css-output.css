@@ -121,6 +121,12 @@ html, body {
     margin-left: -20px !important;
   }
 }
+@media screen and (max-width: 800px) {
+  .right {
+    margin-left: -15px;
+    margin-top: -25px;
+  }
+}
 .button-primary {
   background-color: #A3B18A;
 }

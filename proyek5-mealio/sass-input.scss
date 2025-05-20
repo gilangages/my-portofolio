@@ -129,6 +129,12 @@ html, body{
     margin-left: -20px !important;
   }
 }
+@media screen and (max-width:800px){
+  .right{
+    margin-left: -15px;
+    margin-top: -25px;
+  }
+}
 .button-primary{
   @extend.button-basic;
   background-color: $olive-color;
