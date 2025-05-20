@@ -25,7 +25,6 @@ html, body {
 .navbar a img {
   height: 57px;
   width: 165px;
-  margin-top: -11px;
   margin-left: -10px;
 }
 .navbar a:hover {
@@ -53,7 +52,7 @@ html, body {
 }
 .header {
   background-image: url("images/gambar4.jpg");
-  height: 550px;
+  min-height: 550px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,6 +111,12 @@ html, body {
   margin-left: 5px;
 }
 
+@media screen and (max-width: 400px) {
+  .button-basic, .button-secondary, .button-primary {
+    font-size: 13px;
+    padding: 10px 10px;
+  }
+}
 .button-primary {
   background-color: #A3B18A;
 }
@@ -297,7 +302,7 @@ html, body {
 
 @media screen and (max-width: 800px) {
   .info {
-    width: 85%;
+    width: 50%;
   }
 }
 .footer {
