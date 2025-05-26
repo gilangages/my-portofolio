@@ -1,0 +1,3 @@
+[submodule "proyek6-myshop"]
+	path = proyek6-myshop
+	url = https://github.com/gilangages/vue-cli.git
