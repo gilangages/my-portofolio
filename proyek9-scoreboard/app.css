@@ -1,0 +1,161 @@
+body {
+	color: #fff;
+	background: #050E1D;
+	font-family: verdana, sans-serif;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  /* filter: blur(5px);  */
+  
+}
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Sesuaikan 0.3–0.5 */
+  background: url('./assets/img/bg.jpg') center/cover no-repeat;
+  filter: blur(1px);
+  z-index: -1;
+}
+
+.scoreboard {
+	min-height: 100vh;
+}
+
+h2 {
+  text-transform: uppercase;
+	font-weight: bold;
+}
+
+.board {
+  background-color: rgba(255, 255, 255, 0.1); /* semi transparan putih */
+  backdrop-filter: blur(6px); /* efek kaca (glassmorphism) */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 4em;
+}
+#myInput1 {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+#myInput2 {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+
+.points p {
+	font-family: "Share Tech Mono", sans-serif;
+	font-weight: 400;
+	font-size: 80px;
+	/* background: #000; */
+	/* color: #f94f6d; */
+	min-width: 205px;
+}
+#p1-display {
+  background-color: rgba(255, 0, 0, 0.3) !important; /* merah transparan */
+  color: white !important;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5) !important;
+  font-size: 6.5rem !important;
+}
+#p2-display {
+  background-color: rgba(0, 0, 255, 0.3) !important; /* biru transparan */
+  color: white !important;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5) !important;
+  font-size: 6.5rem !important;
+}
+#p1-display, #p2-display {
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparan */
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 4rem;
+  color: #ff4d6d;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 10px rgba(255, 77, 109, 0.5);
+}
+
+
+h2, button, p {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.btn-primary {
+	/* background: transparent;
+	color: #9aabd8;
+	border-color: #9aabd8;
+	font-size: 1.5em; */
+  background-color: #ff4d6d;
+  border: none;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+	/* color: #fff;
+	background-color: #f94f6d;
+	border-color: #f94f6d; */
+  transform: scale(1.1);
+  background-color: #ff1e4b;
+}
+
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+	color: #fff;
+	background-color: #f94f6d;
+	border-color: #f94f6d;
+	box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 50%);
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+#footer-text {
+  font-size: 0.6em;
+  
+}
+
+.teamName {
+  font-size: 4rem;
+  margin-top: -5px !important;
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease forwards;
+}
+
+
