@@ -1,0 +1,71 @@
+body {
+  font-family: "Fredoka", sans-serif;
+  background: #FFFAF7;
+  box-sizing: border-box;
+}
+h1{
+  margin-top: -1px;
+  font-size: 8em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.explain {
+  font-size: 2em;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: -3em;
+}
+.container{
+  /* margin-top: 1.5em; */
+  display: flex;
+  margin: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.card {
+  width: 380px;
+  height: auto;
+  padding: 1.5em;
+  background-color: aliceblue;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* bayangan */
+  transition: 0.3s;
+}
+.card-image {
+  width: 100%;       /* gambar lebar penuh */
+  height: 300px;      /* tinggi otomatis proporsional */
+  display: block;
+}
+
+.card-info, .view {
+  text-align: center;
+}
+.card-info{
+  font-size: 1em;
+  margin-bottom: 3em;
+}
+.vieww{
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  background-color: aquamarine;
+  border-radius: 5px;
+  padding: 8px;
+}
+.vieww:hover{
+  background-color: #1291a1;
+  color: white;
+  font-weight: bold;
+}
+
+.footer{
+  color: gray;
+  text-align: center;
+  font-size: 0.9em;
+}
