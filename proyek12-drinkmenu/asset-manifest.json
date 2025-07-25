@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/proyek12-drinkmenu/static/css/main.910aa0f7.css",
+    "main.js": "/proyek12-drinkmenu/static/js/main.2ccca868.js",
+    "index.html": "/proyek12-drinkmenu/index.html",
+    "main.910aa0f7.css.map": "/proyek12-drinkmenu/static/css/main.910aa0f7.css.map",
+    "main.2ccca868.js.map": "/proyek12-drinkmenu/static/js/main.2ccca868.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.910aa0f7.css",
+    "static/js/main.2ccca868.js"
+  ]
+}
