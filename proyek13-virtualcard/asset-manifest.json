@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/proyek13-virtualcard/static/css/main.afe3b9f8.css",
+    "main.js": "/proyek13-virtualcard/static/js/main.1544fc80.js",
+    "index.html": "/proyek13-virtualcard/index.html",
+    "main.afe3b9f8.css.map": "/proyek13-virtualcard/static/css/main.afe3b9f8.css.map",
+    "main.1544fc80.js.map": "/proyek13-virtualcard/static/js/main.1544fc80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afe3b9f8.css",
+    "static/js/main.1544fc80.js"
+  ]
+}
