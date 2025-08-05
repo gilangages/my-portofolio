@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/proyek15-colorgenerator/static/css/main.581ba94d.css",
+    "main.js": "/proyek15-colorgenerator/static/js/main.0e9a7766.js",
+    "index.html": "/proyek15-colorgenerator/index.html",
+    "main.581ba94d.css.map": "/proyek15-colorgenerator/static/css/main.581ba94d.css.map",
+    "main.0e9a7766.js.map": "/proyek15-colorgenerator/static/js/main.0e9a7766.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.581ba94d.css",
+    "static/js/main.0e9a7766.js"
+  ]
+}
