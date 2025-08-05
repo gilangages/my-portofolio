@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/proyek13-virtualcard/static/css/main.afe3b9f8.css",
+    "main.css": "/proyek13-virtualcard/static/css/main.358de420.css",
     "main.js": "/proyek13-virtualcard/static/js/main.1544fc80.js",
+    "static/media/ling.png": "/proyek13-virtualcard/static/media/ling.a1b704b94c0d68c3248f.png",
     "index.html": "/proyek13-virtualcard/index.html",
-    "main.afe3b9f8.css.map": "/proyek13-virtualcard/static/css/main.afe3b9f8.css.map",
+    "main.358de420.css.map": "/proyek13-virtualcard/static/css/main.358de420.css.map",
     "main.1544fc80.js.map": "/proyek13-virtualcard/static/js/main.1544fc80.js.map"
   },
   "entrypoints": [
-    "static/css/main.afe3b9f8.css",
+    "static/css/main.358de420.css",
     "static/js/main.1544fc80.js"
   ]
 }
