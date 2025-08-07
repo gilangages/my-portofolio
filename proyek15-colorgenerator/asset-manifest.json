@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/proyek15-colorgenerator/static/css/main.581ba94d.css",
-    "main.js": "/proyek15-colorgenerator/static/js/main.0e9a7766.js",
+    "main.css": "/proyek15-colorgenerator/static/css/main.fdb5e38e.css",
+    "main.js": "/proyek15-colorgenerator/static/js/main.10e8de2d.js",
     "index.html": "/proyek15-colorgenerator/index.html",
-    "main.581ba94d.css.map": "/proyek15-colorgenerator/static/css/main.581ba94d.css.map",
-    "main.0e9a7766.js.map": "/proyek15-colorgenerator/static/js/main.0e9a7766.js.map"
+    "main.fdb5e38e.css.map": "/proyek15-colorgenerator/static/css/main.fdb5e38e.css.map",
+    "main.10e8de2d.js.map": "/proyek15-colorgenerator/static/js/main.10e8de2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.581ba94d.css",
-    "static/js/main.0e9a7766.js"
+    "static/css/main.fdb5e38e.css",
+    "static/js/main.10e8de2d.js"
   ]
 }
