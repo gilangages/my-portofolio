@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/proyek16-gocheck/static/css/main.23de9be7.css",
+    "main.js": "/proyek16-gocheck/static/js/main.d599bfea.js",
+    "index.html": "/proyek16-gocheck/index.html",
+    "main.23de9be7.css.map": "/proyek16-gocheck/static/css/main.23de9be7.css.map",
+    "main.d599bfea.js.map": "/proyek16-gocheck/static/js/main.d599bfea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23de9be7.css",
+    "static/js/main.d599bfea.js"
+  ]
+}
