@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/proyek17-accordionfaq/static/css/main.436433ff.css",
+    "main.js": "/proyek17-accordionfaq/static/js/main.acab5c3c.js",
+    "index.html": "/proyek17-accordionfaq/index.html",
+    "main.436433ff.css.map": "/proyek17-accordionfaq/static/css/main.436433ff.css.map",
+    "main.acab5c3c.js.map": "/proyek17-accordionfaq/static/js/main.acab5c3c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.436433ff.css",
+    "static/js/main.acab5c3c.js"
+  ]
+}
